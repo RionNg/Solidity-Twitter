@@ -14,7 +14,7 @@ contract Twitter {
         uint256 likes;
     }
 
-    mapping(address => Tweet[] ) public tweets;
+    mapping(address => Tweet[]) public tweets;
     address public owner;
 
     event TweetCreated(uint256 id, address author, string content, uint256 timestamp);
